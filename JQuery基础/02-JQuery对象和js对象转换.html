@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-JQuery对象和js对象转换</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+    <div id="div1">div1..</div>
+    <div id="div2">div2..</div>
+
+
+
+    <script>
+       var divs = $("div");
+       var divv = document.getElementsByTagName("div");
+       for (var i = 0; i < divv.length; i++) {
+           /*js对象转成jQuery对象*/
+            $(divv[i]).html("momo");
+       }
+     /*  for (var i = 0; i < divs.length; i++) {
+           divs[i].innerHTML="我爱你~";
+       }*/
+     /*divs.html("i love u");*/
+
+        /*jQuery对象转成js对象*/
+        divs[0].innerHTML="aaa";
+        divs[1].innerHTML="aaa";
+    </script>
+
+
+</body>
+</html>

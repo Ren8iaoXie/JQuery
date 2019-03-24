@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03-事件绑定</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+
+
+
+    <script>
+        /*
+        *绑定事件
+        */
+       /* window.onload=function(){
+            $("#b1").click(function () {
+                alert("嘻嘻!");
+            })
+        }*/
+
+       /*
+        *jQuery入口函数(当文档加载完成后运行)
+        * */
+       $(function () {
+           $("#b1").click(function () {
+               alert("嘻嘻!");
+           });
+       });
+
+       //定义css样式
+       $(function () {
+           $("#div1").css("backgroundColor","pink");
+       });
+    </script>
+    <div id="div1">div1..</div>
+    <div id="div2">div2..</div>
+    <input id="b1" type="button" value="点我" />
+
+</body>
+</html>

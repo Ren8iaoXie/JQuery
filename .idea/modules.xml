@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JQuery-基础/JQuery-基础.iml" filepath="$PROJECT_DIR$/JQuery-基础/JQuery-基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery高级/JQuery高级.iml" filepath="$PROJECT_DIR$/JQuery高级/JQuery高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jquery_基础.iml" filepath="$PROJECT_DIR$/Jquery_基础.iml" />
+    </modules>
+  </component>
+</project>
